@@ -39,9 +39,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button toLifeCircle = findViewById(R.id.bnt_to_lifyCircle);
         toLifeCircle.setOnClickListener(this);
 
-        // 按钮四，生命周期测试
+        // 按钮四，登录
         Button toLogin = findViewById(R.id.bnt_to_login);
-        toLifeCircle.setOnClickListener(this);
+        toLogin.setOnClickListener(this);
 
     }
 
@@ -55,10 +55,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             intent.setClass(MainActivity.this, LifeCircle.class);
             startActivity(intent);
         }
-//        else if(v.getId() == R.id.bnt_to_calculator){
-//            intent.setClass(MainActivity.this, LoginActivity.class);
-//            startActivity(intent);
-//        }
+        else if(v.getId() == R.id.bnt_to_login){
+            intent.setClass(MainActivity.this, LoginActivity.class);
+            startActivity(intent);
+        }
     }
 
 
