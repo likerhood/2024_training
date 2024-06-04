@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bnt_to_calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到计算器"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/buttonColorDefault"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/iv_back1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:textColor="@color/black"
+        android:textSize="30sp"/>
+
+</LinearLayout>

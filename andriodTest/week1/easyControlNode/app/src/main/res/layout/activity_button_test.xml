@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:text="hhh"/>
+
+    <Button
+        android:id="@+id/bnt_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonTest1"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/buttonColorDefault"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/bnt_print_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打印名字"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/buttonColorDefault"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/bnt_print_school"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打印学校"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/buttonColorDefault"
+        android:textSize="20sp"/>
+
+<!--禁用和恢复按钮-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+       <Button
+           android:id="@+id/btn_enable"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="启用测试按钮"
+           android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btn_disable"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="禁用测试按钮"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_test"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试按钮"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/buttonColorDefault"/>
+    <TextView
+        android:id="@+id/tv_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看测试按钮的点击结果"
+        android:textColor="@color/black"
+        android:background="@color/textBlock"
+        android:textSize="25sp"/>
+
+
+<!--    回到主页按钮-->
+
+
+</LinearLayout>

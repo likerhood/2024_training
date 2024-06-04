@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="buttonColorDefault">#FFDEDAE4</color>
+    <color name="textBlock">#FFB0EDDE</color>
+    <color name="buttonDisable">#929292</color>
+    <color name="calculatorColor">#EEEEEE</color>
+    <color name="tt">#FFDBDCDF</color>
+
+</resources>
