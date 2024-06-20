@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:background="@color/textBackground"
+        />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="将文本信息发送到下一个组件"/>
+
+    <TextView
+        android:id="@+id/tv_sdreceive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="等待接受数据中"
+        android:textSize="30sp"
+        android:background="@color/textBackground"
+        />
+
+
+</LinearLayout>

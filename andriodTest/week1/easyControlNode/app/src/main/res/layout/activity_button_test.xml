@@ -82,6 +82,19 @@
         android:background="@color/textBlock"
         android:textSize="25sp"/>
 
+<!--        <ImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/sqrt"/>-->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图标在左"
+            android:drawableLeft="@drawable/shouc"
+            android:background="#FFFFFF"
+            android:drawablePadding="5dp"
+            />
 
 <!--    回到主页按钮-->
 

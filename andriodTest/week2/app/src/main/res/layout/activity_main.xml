@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/main_activity_setup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_setup"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/main_setup_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简单模拟登录活动启动"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/main_intent_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="intent隐式应用的测试"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/main_activity_datatest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="activity之间的数据传递"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/main_metadata_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="元数据传递信息"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/main_shape_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="shape测试"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/main_radio_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单选框测试"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/main_edit_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录界面测试"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/main_date_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="日期dialog测试"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/main_time_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间dialog测试"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/main_login_demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录案例"
+        android:textSize="20sp"
+        />
+
+
+</LinearLayout>

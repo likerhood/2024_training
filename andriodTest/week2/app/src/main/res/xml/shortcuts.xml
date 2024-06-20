@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <shortcut
+        android:shortcutId="first"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/first_short"
+        android:shortcutLongLabel="@string/first_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.example.myapplication.LoginTestInputActivity"
+            android:targetPackage="com.example.myapplication"/>
+        <categories
+            android:name="android.shortcut.conversion"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="second"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/second_short"
+        android:shortcutLongLabel="@string/second_long">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.example.myapplication.ActSenActivity"
+            android:targetPackage="com.example.myapplication"/>
+
+        <categories
+            android:name="android.shortcut.conversion"/>
+
+    </shortcut>
+
+</shortcuts>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录测试界面，点击按钮就是登录成功"
+        android:textSize="50sp"
+        android:background="@color/textBackground"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btn_login_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:textSize="30sp"/>
+
+</LinearLayout>

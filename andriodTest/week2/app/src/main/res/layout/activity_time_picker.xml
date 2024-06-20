@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TimePicker
+        android:id="@+id/dp_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+        />
+
+    <Button
+        android:id="@+id/btn_date_timeok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btn_time_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择时间"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/tv_timeshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:background="@color/textBackground"
+        />
+
+
+</LinearLayout>
