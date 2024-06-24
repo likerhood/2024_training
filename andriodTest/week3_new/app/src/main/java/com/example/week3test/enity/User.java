@@ -1,4 +1,4 @@
-package com.example.week3test.eniy;
+package com.example.week3test.enity;
 
 public class User {
 

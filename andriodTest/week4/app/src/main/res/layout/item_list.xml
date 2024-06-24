@@ -1,0 +1,58 @@
+<!-- list_item_layout.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="8dp">
+
+    <!-- 左侧图片 -->
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/item_list_shape"
+        android:src="@drawable/food" />
+
+    <!-- 中间部分，分为两个垂直布局 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="8dp">
+
+        <!-- 购物类别 -->
+        <TextView
+            android:id="@+id/tv_category_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            tools:text="购物类别" />
+
+        <!-- 日期和备注 -->
+        <TextView
+            android:id="@+id/tv_date_remarks"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp"
+            tools:text="2024-06-24  备注信息" />
+    </LinearLayout>
+
+    <!-- 右侧金额 -->
+    <TextView
+        android:id="@+id/tv_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="28sp"
+        tools:text="¥ 100.00" />
+
+</LinearLayout>

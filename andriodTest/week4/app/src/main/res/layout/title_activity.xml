@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/green">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        />
+
+    <RadioGroup
+        android:id="@+id/rb_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/radio_outcome"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="支出"
+            android:button="@null"
+            android:textColor="@drawable/radio_button_text_color"
+            android:checked="true"
+            android:background="@drawable/radio_button_background"/>
+
+        <RadioButton
+            android:id="@+id/radio_income"
+            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="收入"
+            android:button="@null"
+            android:textColor="@drawable/radio_button_text_color"
+            android:background="@drawable/radio_button_background"/>
+
+    </RadioGroup>
+
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="小青账"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/iv_billdetail"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bill_normal"/>
+
+
+
+</RelativeLayout>

@@ -6,14 +6,10 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import com.example.week3test.database.UserDBHelper;
-import com.example.week3test.eniy.User;
+import com.example.week3test.enity.User;
 import com.example.week3test.utils.ToastUtil;
 
 import java.util.List;

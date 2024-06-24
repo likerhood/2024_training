@@ -34,4 +34,66 @@
         android:text="账单静态数据测试"
         android:textSize="@dimen/common_font_size"/>
 
+    <Button
+        android:id="@+id/main_test_filetest"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_layout_height"
+        android:text="外部文件存储"
+        android:textSize="@dimen/common_font_size"/>
+
+    <Button
+        android:id="@+id/main_test_roomtest"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_layout_height"
+        android:text="room使用测试"
+        android:textSize="@dimen/common_font_size"/>
+
+    <Button
+        android:id="@+id/main_test_shoppingtest"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_layout_height"
+        android:text="购物车测试"
+        android:textSize="@dimen/common_font_size"/>
+
+    <Button
+        android:id="@+id/main_test_spinnertest"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_layout_height"
+        android:text="下拉列表测试"
+        android:textSize="@dimen/common_font_size"/>
+
+    <Button
+        android:id="@+id/main_test_listview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_layout_height"
+        android:text="listView测试"
+        android:textSize="@dimen/common_font_size"/>
+
+    <Button
+        android:id="@+id/main_test_ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_layout_height"
+        android:text="ViewPager测试"
+        android:textSize="@dimen/common_font_size"/>
+    <Button
+        android:id="@+id/main_test_imagePager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_layout_height"
+        android:text="轮播图测试"
+        android:textSize="@dimen/common_font_size"/>
+
+    <Button
+        android:id="@+id/main_test_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_layout_height"
+        android:text="Fragment测试"
+        android:textSize="@dimen/common_font_size"/>
+
+    <Button
+        android:id="@+id/main_test_openFragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_layout_height"
+        android:text="启动页的Fragment测试"
+        android:textSize="@dimen/common_font_size"/>
+
 </LinearLayout>

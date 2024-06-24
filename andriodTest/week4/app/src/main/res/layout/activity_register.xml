@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green">
+
+    <!-- 使用 CardView 包裹注册界面 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/login_background"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="24dp"
+            android:background="@drawable/login_background">
+
+            <!-- 注册标题 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="注册"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="32dp"/>
+
+            <!-- 用户名输入框 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="      用户名:"
+                    android:textSize="17sp"
+                    android:textColor="@android:color/black"/>
+
+                <EditText
+                    android:id="@+id/edit_phone_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请输入手机号"
+                    android:inputType="number"
+                    android:padding="12dp"
+                    android:layout_marginStart="16dp"/>
+            </LinearLayout>
+
+            <!-- 密码输入框 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         密码:"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"/>
+
+                <EditText
+                    android:id="@+id/edit_password_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请输入密码"
+                    android:inputType="textPassword"
+                    android:padding="12dp"
+                    android:layout_marginStart="16dp"/>
+            </LinearLayout>
+
+            <!-- 确认密码输入框 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="确认密码:"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"/>
+
+                <EditText
+                    android:id="@+id/edit_confirm_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请再次输入密码"
+                    android:inputType="textPassword"
+                    android:padding="12dp"
+                    android:layout_marginStart="16dp"/>
+            </LinearLayout>
+
+            <!-- 获取验证码的输入框和按钮 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="16dp">
+
+                <EditText
+                    android:id="@+id/edit_verification_code"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="请输入验证码"
+                    android:inputType="number"
+                    android:padding="12dp"/>
+
+                <Button
+                    android:id="@+id/button_get_verification_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="获取验证码"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/login_button"
+                    android:padding="12dp"
+                    android:layout_marginStart="16dp"/>
+            </LinearLayout>
+
+            <!-- 注册按钮 -->
+            <Button
+                android:id="@+id/button_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="注册"
+                android:textColor="@android:color/white"
+                android:background="@drawable/login_button"
+                android:padding="12dp"
+                android:layout_marginTop="16dp"/>
+
+            <!-- 注册完成提示文本 -->
+            <TextView
+                android:id="@+id/to_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="注册完成？快来登录吧！"
+                android:textColor="@color/blue"
+                android:layout_marginTop="16dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
